@@ -16,21 +16,6 @@ class LoginView extends GetView<LoginController> {
       body: Column(
         children: [
           TextFormField(),
-          TextFormField(),
-          TextFormField(),
-          TextFormField(),
-          TextFormField(),
-          TextFormField(),
-          TextFormField(),
-          TextFormField(),
-          TextFormField(),
-          Center(),
-          Center(),
-          Center(),
-          Center(),
-          Center(),
-          Center(),
-          Center(),
         ],
       )
     );
