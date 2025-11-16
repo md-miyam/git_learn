@@ -15,8 +15,22 @@ class LoginView extends GetView<LoginController> {
       ),
       body: Column(
         children: [
-          Text("Hello world",style: TextStyle(fontSize: 24),),
           TextFormField(),
+          TextFormField(),
+          TextFormField(),
+          TextFormField(),
+          TextFormField(),
+          TextFormField(),
+          TextFormField(),
+          TextFormField(),
+          TextFormField(),
+          Center(),
+          Center(),
+          Center(),
+          Center(),
+          Center(),
+          Center(),
+          Center(),
         ],
       )
     );
