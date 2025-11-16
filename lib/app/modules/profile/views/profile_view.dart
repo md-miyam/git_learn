@@ -15,8 +15,17 @@ class ProfileView extends GetView<ProfileController> {
       ),
       body: Column(
         children: [
-          Text("Miyam"),
-          Text("number"),
+          SizedBox(),
+          Column(),
+          Container(),
+          Container(),
+          Container(),
+          Container(),
+          SizedBox(),
+          SizedBox(),
+          SizedBox(),
+          SizedBox(),
+          SizedBox(),
         ],
       )
     );
